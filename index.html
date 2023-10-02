@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="results-component">
+        <div class="results-component__score">
+          <h2 class="score-intro">Your Result</h2>
+          <div class="score-value">
+            <div class="score-value__num">76</div>
+            <div class="score-value__base">of 100</div>
+          </div>
+          <h1 class="score-evaluation">Great</h1>
+          <div class="score-text">
+            You scored higher than 65% of the people who have taken these tests.
+          </div>
+        </div>
+
+        <div class="results-component__summary">
+          <h2 class="summary-intro">Summary</h2>
+          <div class="score-metric-section">
+            <div class="score-metric reaction">
+              <img src="assets/images/icon-reaction.svg" class="score-metric__icon" />
+              <span class="">Reaction</span>
+              <div class="score-metric__value">80</div>
+              <div class="score-metric__base">&nbsp;/ 100</div>
+            </div>
+
+            <div class="score-metric memory">
+              <img src="assets/images/icon-memory.svg" class="score-metric__icon" />
+              <span>Memory</span>
+              <div class="score-metric__value">92</div>
+              <div class="score-metric__base">&nbsp;/ 100</div>
+            </div>
+
+            <div class="score-metric verbal">
+              <img src="assets/images/icon-verbal.svg" class="score-metric__icon" />
+              <span>Verbal</span>
+              <div class="score-metric__value">61</div>
+              <div class="score-metric__base">&nbsp;/ 100</div>
+            </div>
+
+            <div class="score-metric visual">
+              <img src="assets/images/icon-visual.svg" class="score-metric__icon" />
+              <span>Visual</span>
+              <div class="score-metric__value">72</div>
+              <div class="score-metric__base">&nbsp;/ 100</div>
+            </div>
+          </div>
+
+          <button class="score-metric__continue-btn" type="button">
+            Continue
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <!-- <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/genfu94">Giuseppe Gelfusa</a>.
+      </div>
+    </footer> -->
+  </body>
+</html>
